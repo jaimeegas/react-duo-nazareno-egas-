@@ -1,0 +1,81 @@
+/* src/index.css */
+
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #8b96d3;
+  color: #131212;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #0011aa;
+  /* Orange color */
+  font-size: 2em;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-align: left;
+  /* Align text to the left */
+}
+
+li p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #2fa039;
+  /* Orange color */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3943a3;
+  /* Darker orange on hover */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3943a3;
+  /* Orange color */
+}
